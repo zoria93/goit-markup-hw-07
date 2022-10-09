@@ -1,0 +1,9 @@
+.logo--color {
+    color: var(--first-bg-color);
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--accent-color);
+
+}

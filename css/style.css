@@ -325,20 +325,20 @@ a {
   padding-top: 0;
 }
 
-.ours-skills {
+.ours-work {
   display: flex;
 }
 
-.ours-skills__item:not(:last-child) {
+.ours-work__item:not(:last-child) {
   margin-right: 30px;
 }
 
 
-.ours-skills__wrapper {
+.ours-work__wrapper {
   position: relative;
 }
 
-.ours-skills__text {
+.ours-work__text {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -496,6 +496,8 @@ a {
 
 }
 
+/* footer-logo */
+
 .logo--color {
   color: var(--first-bg-color);
 }
@@ -506,7 +508,7 @@ a {
 
 }
 
-/* address */
+/*footer-address */
 
 .address {
   margin-top: 20px;
@@ -782,7 +784,7 @@ a {
   color: var(--primary-text-color);
 }
 
- /*  backdrop  */
+ /*  modal  */
 
 .backdrop {
   position: fixed;

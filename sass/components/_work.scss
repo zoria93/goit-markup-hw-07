@@ -4,16 +4,18 @@
 
 .ours-work {
     display: flex;
+
+    &__item:not(:last-child) {
+            margin-right: 30px;
+        }
+    
+    
+        &__wrapper {
+            position: relative;
+        }
 }
 
-.ours-work__item:not(:last-child) {
-    margin-right: 30px;
-}
 
-
-.ours-work__wrapper {
-    position: relative;
-}
 
 .ours-work__text {
     position: absolute;

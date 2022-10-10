@@ -1,32 +1,31 @@
 .address {
-    margin-top: 20px;
-}
+  margin-top: 20px;
 
-.address__item:not(:last-child) {
+  &__item:not(:last-child) {
     margin-bottom: 9px;
+  }
 }
 
 .address__link {
-    display: block;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: var(--contact-color);
-}
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--contact-color);
 
-.address__link:hover,
-.address__link:focus {
+  &:hover,
+  &:focus {
     color: var(--accent-color);
-
+  }
 }
 
 .address__text {
-    color: var(--first-bg-color);
-    transition: color 250ms var(--cubic);
-}
+  color: var(--first-bg-color);
+  transition: color 250ms var(--cubic);
 
-.address__text:hover {
+  &:hover {
     color: var(--accent-color);
+  }
 }
